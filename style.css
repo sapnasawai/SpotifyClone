@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubantu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand img{
+  width: 50px;
+  padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.songBanner img {
+   margin: 120px 50px;
+  
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+.songItemContainer {
+    margin-top: 60px ;
+}
+.songItem{
+    height: 50px;
+    background-color: #fff;
+    color: black;
+ 
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 40px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 4vw; 
+    top: 5vh;
+    font-family: 'Varela Round',sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in; 
+    /* time after clicking play button to show gif */
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.mt{
+    margin-top: 16px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+ 
